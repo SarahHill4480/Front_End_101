@@ -1,0 +1,23 @@
+body{
+    font-family: Lucida;
+    background-color: rgb(221, 224, 229);
+    color: rgb(51, 32, 32);
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(87, 87, 191);
+    border-top: solid 1px black;
+}
+
+ol {
+    border-bottom: dashed 3px black;
+}
