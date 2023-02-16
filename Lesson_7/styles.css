@@ -1,0 +1,145 @@
+/* This is a comment*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px
+}
+
+
+body {
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: #353535;
+
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+
+}
+
+h1{
+    font-size: 3em; /*3x the font size which we made to be 14px*/
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+
+blockquote {
+    margin: 0 0 0 30px;
+    font-style: italic;
+    text-indent: 50px;
+
+    line-height: 1.3;
+
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em{
+    text-transform: capitalize;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+a {
+    color: #3ca ;
+    text-decoration: none;
+}
+
+.border-box {
+    background: url('https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png') no-repeat;
+    margin: 0 0 20px;
+    padding: 20px;
+    width: 200px ;
+    height: 150px;
+}
+
+#box-1 {
+    border: solid 1px black;
+}
+
+#box-2 {
+    border: dashed 1px black;
+}
+
+#box-3 {
+    border: dotted 1px black;
+}
+
+#box-4 {
+    border: solid 5px black;
+}
+
+#box-5 {
+    border: dashed 5px black;
+}
+
+#box-6 {
+    border: dotted 5px black;
+}
+
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfO4c_WAnYSCzQptYZsg2Av5JZJdnTfgi0vATTf8V&s);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset{
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
+    padding: 40px;
+    border: solid 1px white ;
+}
+
+form legend {
+    border: solid 1px #333;
+    background: url('https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg');
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 20px
+    -webkit-font-smoothing: antialisased;
+    text-rendering: optimizelegibility;
+
+}
+
+form input[type= "text"], form input[type="email"], form textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px #b90707;
+    background-image: url (https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
+}
