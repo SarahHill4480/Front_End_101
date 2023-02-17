@@ -1,0 +1,211 @@
+
+/* 
+Author: sarah hill
+Date: 17 Feb 2023
+
+Notes: This is to learn CSS
+
+Colour Palette:
+Cream #f2f3ee
+
+*/
+
+/*General style*/
+body{
+    background: #f2f3ee url("") top left repeat; /*find image*/
+    color: rgb(172, 112, 122);
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 24px;
+
+}
+
+
+h1, h2 {
+    color: rgb(210, 57, 83);
+    font-size: 40px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 44px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center ;
+    padding: 0 0 20px;
+    background: url() bottom center no-repeat; /*need a picture*/
+
+}
+
+h1 em{
+    font-style: normal;
+    color: purple;
+
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p.lead {
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+p{
+    margin: 0;
+}
+
+
+/*This will style the links between the a tags */
+a:link {
+    color: #f56ec1;
+    text-decoration: none;
+}
+
+a:visited {
+ color: #f42aa6;
+}
+
+a:hover{
+    color: #a50578;
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 33px;
+    width: 333px;
+    margin: 30px auto;
+    background: url("") center center no-repeat;
+}
+
+header nav {
+    text-align: center;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 141px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header nav ul li a:hover{
+    color: pink ;
+    padding-top: 20px;
+    background: url() top center no-repeat;
+}
+
+header nav ul li#logo a {
+    display: block;
+    width: 292px;
+    height: 141px;
+    background: url() center center no-repeat;
+    text-indent: -9999999px;
+}
+
+header nav ul li#logo a:hover {
+    padding: 0;
+    background: url() center center no-repeat;
+}
+
+#hero{
+
+background: rgb(227, 199, 205) url("") top left repeat;
+}
+
+#hero .large-ribbon {
+    height: 190px;
+    width: 150px;
+    background: url() top left no-repeat;
+    text-indent: -9999999px;
+    top: -30px;
+    right: -30px;
+}
+
+#
+
+/* This is the form styling*/
+#container {
+    width: 1;
+    margin: 0 auto;
+}
+
+form{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfO4c_WAnYSCzQptYZsg2Av5JZJdnTfgi0vATTf8V&s);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset{
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
+    padding: 40px;
+    border: solid 1px white ;
+}
+
+form legend {
+    border: solid 1px #333;
+    background: url('https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg');
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 20px
+    
+
+}
+
+form input[type= "text"], form input[type="email"], form textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px #b90707;
+    background-image: url (https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
+}
+
+#footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*Force elements to self clear*/
+.clearfix.after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear:both;
+    height: 0;
+}
+* html .group   {zoom: 1;}
+*:first-child+html .group {zoom: 1;}
