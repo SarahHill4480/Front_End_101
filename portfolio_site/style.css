@@ -14,7 +14,7 @@ Cream #f2f3ee
 
 
 
-body{
+ body{
     background: #f2f3ee url("") top left repeat; /*find image*/
     color: rgb(183, 134, 143);
     font-family:'Roboto', Arial, Helvetica, sans-serif;
@@ -294,4 +294,5 @@ footer.main {
     height: 0;
 }
 * html .group   {zoom: 1;}
-*:first-child+html .group {zoom: 1;}
+*:first-child+html .group {zoom: 1;} 
+
