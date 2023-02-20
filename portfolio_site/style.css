@@ -11,24 +11,28 @@ Cream #f2f3ee
 */
 
 /*General style*/
+
+
+
 body{
     background: #f2f3ee url("") top left repeat; /*find image*/
-    color: rgb(172, 112, 122);
+    color: rgb(183, 134, 143);
     font-family:'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
 .container {
-    width: 924px;
+    width: 960px;
     margin: 0 auto;
     padding: 30px 24px;
 
-}
+} 
+
 
 
 h1, h2 {
-    color: rgb(210, 57, 83);
-    font-size: 40px;
+    color: rgb(118, 67, 88);
+    font-size: 60px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 44px;
@@ -36,9 +40,10 @@ h1, h2 {
 }
 
 h1 {
+    color: #e6c1c1;
     text-align: center ;
     padding: 0 0 20px;
-    background: url() bottom center no-repeat; /*need a picture*/
+    
 
 }
 
@@ -50,6 +55,7 @@ h1 em{
 
 h2{
     font-size: 34px;
+    
 }
 
 h3 {
@@ -70,12 +76,12 @@ p{
 
 /*This will style the links between the a tags */
 a:link {
-    color: #f56ec1;
+    color: #e071b5;
     text-decoration: none;
 }
 
 a:visited {
- color: #f42aa6;
+ color: #f48dcc;
 }
 
 a:hover{
@@ -88,7 +94,7 @@ hr {
     height: 33px;
     width: 333px;
     margin: 30px auto;
-    background: url("") center center no-repeat;
+    
 }
 
 header nav {
@@ -117,39 +123,59 @@ header nav ul li a {
 
 
 header nav ul li a:hover{
-    color: pink ;
+    color: rgb(194, 138, 148) ;
     padding-top: 20px;
     background: url() top center no-repeat;
 }
 
 header nav ul li#logo a {
     display: block;
-    width: 292px;
-    height: 141px;
-    background: url() center center no-repeat;
+    width: 260px;
+    height: 110px;
+    background: url("logo2.drawio.png") center center no-repeat;
     text-indent: -9999999px;
 }
 
 header nav ul li#logo a:hover {
     padding: 0;
-    background: url() center center no-repeat;
+    background: url("logo2.drawio.png") center center no-repeat;
 }
 
-#hero{
-
-background: rgb(227, 199, 205) url("") top left repeat;
+body, html {
+    height: 100%;
 }
 
-#hero .large-ribbon {
-    height: 190px;
-    width: 150px;
-    background: url() top left no-repeat;
-    text-indent: -9999999px;
-    top: -30px;
-    right: -30px;
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("code.jpeg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-#
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#intro {
+    width: 530px;
+    margin-right: 24px;
+    float: left;
+    font-size: 16px;
+}
 
 /* This is the form styling*/
 #container {
@@ -157,21 +183,62 @@ background: rgb(227, 199, 205) url("") top left repeat;
     margin: 0 auto;
 }
 
+#skills {
+    background: url() left center no-repeat;
+    padding: 30px 0 30px 130px;
+    float: left;
+    width: 300px;
+
+}
+
+#artciles {
+    width: 370px;
+    float: left;
+    margin-right: 24px
+}
+
+#feature-image {
+    width: 520px;
+    float: left;
+}
+
+#java-info header time {
+    color: #8e6482;
+    font-size: 12px;
+}
+
+#project-1{
+    float: left;
+    width: 33%;
+}
+#project-2{
+    display: inline-block;
+    width: 33%;
+}
+#project-3{
+    float: right;
+    width: 33%;
+} 
+
+
 form{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfO4c_WAnYSCzQptYZsg2Av5JZJdnTfgi0vATTf8V&s);
+    
+    background: rgb(255, 242, 244);
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 form fieldset{
-    background-image: url(https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
-    padding: 40px;
+    background: url() right no-repeat;
+    background:#f0c7dc;
+    padding: 50px;
     border: solid 1px white ;
 }
 
 form legend {
-    border: solid 1px #333;
-    background: url('https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg');
+    border: solid 1px #f1eded;
+    background: rgb(252, 229, 233);
     padding: 5px;
     font-size: 25px;
     font-weight: bold;
@@ -179,8 +246,10 @@ form legend {
 
 
 form input, form textarea {
+    
     display: block;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    
     
 
 }
@@ -189,15 +258,32 @@ form input[type= "text"], form input[type="email"], form textarea {
     padding: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(23, 17, 17);
     border: solid 1px #b90707;
-    background-image: url (https://img4.goodfon.com/wallpaper/nbig/2/10/vector-abstract-background-design-wavy.jpg);
+    
 }
 
 #footer{
     text-align: center;
     font-size: 12px;
 }
+
+
+footer.main {
+    background-color: rgb(252, 229, 233);
+    color: #e19e9e;
+    
+    
+}
+
+#copyright, #credits {
+    width: 1000px;
+    float: center;
+    
+}
+
+
+
 
 /*Force elements to self clear*/
 .clearfix.after {
